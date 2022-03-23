@@ -1,0 +1,111 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="css/takeQuiz.css" rel="stylesheet" type="text/css"/>
+        <link href="css/manage.css" rel="stylesheet" type="text/css"/>
+        <title>Make Quiz</title>
+    </head>
+    <body>
+
+        <div class="top-box"> </div>
+        <div class="container">
+            <div class="menu">
+                <ul class="flex-box bold">
+                    <li><a href="login.html">Home</a></li>
+                    <li><a href="takequiz.html">Take Quiz</a></li>
+                    <li><a href="makequiz.html">Make Quiz</a></li>
+                    <li><a href="manageQuiz.html">Manage Quiz</a></li>
+                    <li><a href="login.html">Log out</a></li>
+
+                </ul>
+            </div>
+            <div class="content">
+
+
+
+
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        <title>Make Quiz Page</title>
+                    </head>
+                    <body>
+
+                        <p class="red"></p>
+                        <form action="MakeQuizController" method="POST">
+                            <table class="make-quiz">
+
+                                <tr>
+                                    <td ><label class="light-blue">Question: </label></td>
+                                    <td>
+                                        <textarea maxlength="50" class="textarea-question" name="question" required></textarea>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td><label class="light-blue">Option 1: </label></td>
+                                    <td>
+                                        <textarea  maxlength="50" class="textarea-option"  name="answer"  required></textarea>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><label class="light-blue">Option 2: </label></td>
+                                    <td>
+                                        <textarea  maxlength="50" class="textarea-option"  name="answer"  required></textarea>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><label class="light-blue">Option 3: </label></td>
+                                    <td>
+                                        <textarea  maxlength="50" class="textarea-option"  name="answer"  required></textarea>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><label class="light-blue">Option 4: </label></td>
+                                    <td>
+                                        <textarea  maxlength="50" class="textarea-option"  name="answer"  required></textarea>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+
+                                    <td><label class="light-blue">Answer(s): </label></td>
+                                    <td>
+                                        <input type="checkbox" name="trueAnswer" value="0"  /> <label class="light-blue">Option 1</label> 
+                                        <input type="checkbox" name="trueAnswer" value="1"  /> <label class="light-blue">Option 2</label> 
+                                        <input type="checkbox" name="trueAnswer" value="2"  /> <label class="light-blue">Option 3</label> 
+                                        <input type="checkbox" name="trueAnswer" value="3"  /> <label class="light-blue">Option 4</label> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input type="submit" value="Save"/> 
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </form>
+                        <p id="test" ></p>
+
+
+                    </body>
+
+                </html>
+
+            </div>
+        </div>
+    </body>
+</html>

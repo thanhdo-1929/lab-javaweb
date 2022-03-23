@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="JavaWeb">
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/web/login.jsp</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/controller/LoginController.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/web/WEB-INF/web.xml</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/filter/NewFilter.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/controller/ManageQuizController.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/controller/MakeQuizController.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/web/manageQuiz.jsp</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/controller/TakeQuizController.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/dao/impl/QuestionDAOImpl.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/filter/RoleFilter.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/web/js/takeQuiz.js</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/controller/RegisterController.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/web/showScore.jsp</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/web/makeQuiz.jsp</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/controller/LogoutController.java</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/web/doQuiz.jsp</file>
+            <file>file:/E:/FPTU/Lab%20Web/J3.L.P0001_OnlineQuiz/J3.L.P0001_OnlineQuiz/src/java/dao/QuestionDAO.java</file>
+        </group>
+        <group/>
+        <group name="PRJ321_SE1430">
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/entity/Answer.java</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/context/DBContext.java</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/controller/LoginController.java</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/dao/impl/QuestionDAOImpl.java</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/dao/impl/ResultDAOImpl.java</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/entity/Result.java</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/web/prototype/manageQuiz.html</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/entity/Question.java</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/web/META-INF/context.xml</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/dao/impl/AnswerDAOImpl.java</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/web/prototype/login.html</file>
+            <file>file:/D:/KY_5/labweb/New%20folder/thanhdthe141534/J3.L.P0001_OnlineQuiz/src/java/dao/impl/UserDAOImpl.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,84 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="css/takeQuiz.css" rel="stylesheet" type="text/css"/>
+        <link href="css/manage.css" rel="stylesheet" type="text/css"/>
+        <title>Register</title>
+    </head>
+    <body>
+
+        <div class="top-box"> </div>
+        <div class="container">
+            <div class="menu">
+                <ul class="flex-box bold">
+                    <li><a href="login.html">Home</a></li>
+                    <li><a href="takequiz.html">Take Quiz</a></li>
+                    <li><a href="makequiz.html">Make Quiz</a></li>
+                    <li><a href="manageQuiz.html">Manage Quiz</a></li>
+                    <li><a href="login.html">Log out</a></li>
+
+                </ul>
+            </div>
+            <div class="content">
+
+
+
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+                        <title>JSP Page</title>
+                    </head>
+                    <body>
+                        <h3 class="dark-blue">Registration Form</h3>
+
+
+                        <form action="RegisterController" method="post">
+                            <table border="0">
+
+                                <tr>
+                                    <td class="light-blue">User Name:</td>
+                                    <td><input pattern="^(?!\s*$).+" 
+                                               type="text" name="username" maxlength="20" value="" required /></td>
+                                </tr>
+                                <tr>
+                                    <td class="light-blue"> Password:</td>
+                                    <td><input type="password" name="password" maxlength="20" required /></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="light-blue">User type:</td>
+                                    <td>
+                                        <select class="select-type" name="user-type" >
+                                            <option value="Teacher" >Teacher</option>
+                                            <option value="Student" >Student</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="light-blue">Email:</td>
+                                    <td><input maxlength="50" type="email" name="email" value="" required /></td>
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" value="Register" /></td>
+                                </tr>
+                            </table>
+                        </form>   
+
+                    </body>
+
+                </html>
+
+            </div>
+        </div>
+    </body>
+</html>
