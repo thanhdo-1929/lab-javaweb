@@ -1,0 +1,467 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 8, 2021, 4:54:41 PM
+    Author     : Admin
+*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    /*    height: 100%;    */
+    background-image: url(../image/kaleidoscope.png);
+    background-repeat: repeat;
+    background-color: #aa4043;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+.bold-font{
+    font-weight: bold;
+}
+/*header*/
+.nav-bar {
+    height: 40px;
+    background-color: #303030;   
+}
+.content-bar {
+    width: 938px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    /*    align-items: center;*/
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+}
+.content-bar .icon1{
+    display:none;
+}
+
+
+
+
+  #toggle {
+        display: none;
+        background: #353b48;
+        color: #fff;
+        text-align: right;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+@media (max-width:786px){
+    .content-bar{
+        display: flex;
+        flex-direction: column;
+        left: -100%;
+        transition: all .5s;
+    }
+    .checkbtn{
+        display: block
+    }
+    #check:checked ~ content-bar{
+        left: 0;
+    }
+    .nav-bar{
+        height: auto;
+        background-color: #303030; 
+    }
+    #toggle {
+            display: block;
+        }
+        .item{
+            display: none;
+        }
+    
+}
+
+
+.item {
+    /*    display: table;*/
+    padding: 12px 15px;
+    height: 50%;
+    border-right: 1px solid #505050;
+}
+.item:last-child{
+    border-right: none;
+}
+
+.bold-font{
+    font-weight: bold;
+}
+/*title*/
+.title {
+    height: 83.56px;
+    background-color: #722f31;
+    padding: 15px 0 30px;
+}
+
+.title-main {
+    width: 938px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.title-main .icon {
+    width: 76.5px;
+    height: 78.22px; 
+    background-image: url(../image/photo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-main .text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
+}
+@media (max-width:786px){
+    .title-main {
+        width: 938px;
+        margin-left: 10px;
+        display: flex;
+    }
+}
+.text .photo-link {
+    font-size: 47px;
+    margin-left: 20px;
+}
+
+.text:hover .photo-link a {
+    text-decoration: underline;
+
+}
+
+.text .welcome-text {
+    font-size: 22px;
+    margin-left: 20px;
+}
+/*main content*/
+.main-content {
+    width: 938px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 150px;
+}
+
+.content-and-share {
+    display: flex;
+}
+/*content*/
+.content-and-share .content-panel {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    width: 700px;
+}
+@media (max-width:786px){
+    .content-and-share{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.title-image {
+    font-style: italic;
+}
+
+.content-panel .image {
+    width: 100%;
+}
+.title-img{
+    margin-bottom: 35px;
+    font-style: italic;
+}
+
+
+.view-gallery-panel {
+    display: flex;
+
+    margin-top: 22px;
+}
+.view-gallery-panel .gallery-item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    margin-left: 14.8889px;   
+    width: 216.74px;
+/*    height: 353.29px;*/
+}
+
+.img-gallery {
+    /*    max-width: 216.74px;    */
+    width: 216.74px;
+    height: auto;
+}
+.gallery-item .title-gallery {
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.gallery-item .title-gallery:hover {
+    text-decoration: none;
+}
+.gallery-item .content-gallery {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+.view-gallery-panel .gallery-item:first-child {
+    margin-left: 0;
+}
+.view-gallery-panel .gallery-item:last-child {
+    padding-right: 0;
+}
+@media (max-width: 786px) {
+    .content-panel .image {
+        margin: 0px 10px 10px 10px;
+        width: 100%;
+    }
+    .view-gallery-panel {
+        flex-direction: column;
+    }
+    .view-gallery-panel .gallery-item{
+        width: 100%;
+        height: auto;
+        margin: 0px 10px 10px 10px;
+        display: block;
+        /*            padding: 0;*/
+    }
+
+    .img-gallery{
+        width: 100%;
+        height: auto;
+        
+    }
+    .view-gallery-panel .gallery-item:first-child {
+        margin-left: 10px;
+    }
+    .view-gallery-panel .gallery-item:last-child {
+        padding-right: 0;
+    }
+    
+    .gallery-item .title-gallery {
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
+    float:left;
+    padding-left: 10px;
+    width: 44%;
+}
+
+.gallery-item .title-gallery:hover {
+    text-decoration: none;
+}
+.gallery-item .content-gallery {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    display: block;
+/*    float:left*/
+}
+.gallery-item .content-gallery p{
+    
+    float:left
+}
+.image-gallery{
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+}
+
+.about-me {
+    width: 100%;    
+}
+@media (max-width:786px){
+    .about-me {
+        width: auto;
+        margin-left: 10px;    
+    }
+}
+
+.title-about {
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    padding: 9.6px 0;
+}
+
+.content-about {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 11px 0 22px;
+}   
+/*end cotnent*/
+/*share*/
+.content-and-share .share-panel {
+    flex-grow: 1;    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+}
+@media (max-width:810px){
+    .content-and-share .share-panel {
+        max-width: 75%;
+        margin-left: 10px;
+    }
+}
+.share-panel .title-share {
+    background-color: #303030;
+    font-size: 22px;
+    padding: 7px 15px;
+}
+
+.share-panel .content-share {
+    background-color: #7d363773;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 5.5px 15px 11px;
+}
+.share-fb:before{     
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-image: url(../image/fb.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 0 6px 0 0;
+}
+.share-twt:before{     
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-image: url(../image/twt.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin: 0 6px 0 0;
+}
+.share-gg:before{     
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-image: url(../image/gg.png);
+    background-size: cover;/*anh fit với khung*/
+    background-position: center;
+    float: left;
+    margin: 0 6px 0 0;
+}
+.share-panel .content-share a {
+    text-decoration: underline;
+}
+
+.share-panel .content-share a:hover {
+    text-decoration: none;
+}
+.paging{
+    height: 70px;
+    text-align: center;
+    /*    float: left;
+        display: block;*/
+    /*    background-color: red;*/
+}
+.paging a{
+    color: #fff;
+    font-family: auto;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+/*end share*/
+/*paging*/
+/*.paging{
+    display: flex;
+    justify-content: center;
+}
+*/.current-page{
+    color: blue;
+    margin: 5px;
+}
+.other-page{
+    margin: 5px;
+    text-decoration: underline;
+}
+/*end paging*/
+/*end main content*/
+/*footer*/
+.footer{ 
+    width: 100%;
+    height: 80.22px;
+    margin-top: auto;
+    background-color: #303030;
+} 
+.footer .footer-content{
+    width: 938px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    /*    can chinh vi tri cua child theo luong or huong. Khoang cach sẽ đc chia deu*/
+    justify-content: space-between;
+}
+.link-footer{
+    text-decoration: underline;
+}
+.link-footer:hover{
+    text-decoration: none;
+}
+
+.footer-page-counter-item{
+    border: 0 solid #fff;
+    background: #fff;
+    font-size: 14.4px;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    line-height: 14.4px;
+    padding: 2px 2px 1px;
+    margin: 3px 2px 0 0;
+    border-radius: 4px;   
+    float: left;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    width: 10px;   
+    position: relative;
+}
+.error{
+    color: red;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.return a{
+    font-size: 30px;
+    margin-left: 200px;
+}
+.error h3{
+    margin-left: -60px;
+}
+
+.result{
+    margin-left: 20px;
+    width: 456px;
+}
+.result a{
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
