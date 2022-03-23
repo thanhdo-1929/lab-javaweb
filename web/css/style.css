@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2021, 10:09:47 PM
+    Author     : Hùng
+*/
+
+/* Timetable */
+
+.header h2 a:last-child{
+    vertical-align: 10px;
+    color: royalblue;
+}
+button {
+    height: 29px;
+    font-weight: 100;
+    color: aliceblue;
+    background-color: royalblue;
+}
+.header p {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+.from,.to,.add {
+    margin: 1%;
+    display: inline-block;
+    text-decoration: none;
+}
+.header input {
+    width: 38vw;
+    height: 23px;
+}
+.content table {
+    margin-top: 20px;
+    width: 100%;
+}
+.content table tbody {
+    background-color: gainsboro;
+    text-align: center;
+}
+.content p {
+    color: cornflowerblue;
+}
+/* Add Timetable */
+.content_add span {
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: 10px;
+}
+.content_add table tr td:last-child {
+    padding: 10px 10vw;
+}
+.content_add table tr td:first-child {
+    font-weight: bold;
+}
+.content_add input {
+    width: 40vw;
+    height: 25px;
+}
+.content_add select {
+    width: 41vw;
+    height: 35px;
+}
+@media screen and (min-width: 800px) {
+    .header input {
+        width: 25vw;
+        height: 23px;
+    }
+}

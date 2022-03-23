@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>
+                    <a href="HomeController">
+                        <img src="images/timetable.png" style="width: 30px; height: 30px" />
+                    </a>
+                    <a href="PreAddController">Add TimeTable </a>
+                </h2>
+
+
+                <div style="text-align: center;color:red;font-size: 18px; padding: 0 0 20px;"> </div> 
+
+            </div>
+            <div class="content_add">
+                <form action="AddController" method="POST">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Date</td>
+                                <td>
+                                    <input type="date" id="date" name="date" required />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Slot</td>
+                                <td>
+                                    <select name="slot">
+
+                                        <option  value="1">1</option>
+
+                                        <option  value="2">2</option>
+
+                                        <option  value="3">3</option>
+
+                                        <option  value="4">4</option>
+
+                                        <option  value="5">5</option>
+
+                                        <option  value="6">6</option>
+
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Room</td>
+                                <td>
+                                    <select name="room"> 
+
+                                        <option value="1">BE-201</option>
+
+                                        <option value="2">BE-202</option>
+
+                                        <option value="3">AL-R201</option>
+
+                                        <option value="4">AL-R202</option>
+
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Teacher</td>
+
+                                <td>
+                                    <input type="text" name="teacher" required />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Class/Course</td>
+                                <td>
+                                    <select name="class">
+
+                                        <option value="1">SE1401</option>
+
+                                        <option value="2">SE1402</option>
+
+                                        <option value="3">SE1403</option>
+
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><button type="submit" onclick="date()">Save</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
